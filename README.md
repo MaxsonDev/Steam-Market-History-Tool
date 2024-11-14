@@ -11,8 +11,8 @@ The extension downloads transaction data and stores it in your browser's local d
 
 ## Screenshots
 ![screen](images/smht_s2.png)
-![screen](images/smht_s1.png)
 ![screen](images/smht_s3.png)
+![screen](images/smht_s1.png)
 
 ## Installation
 1. Open the Chrome Extensions page.
