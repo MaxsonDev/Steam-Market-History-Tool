@@ -1,0 +1,56 @@
+{
+	"manifest_version": 3,
+	"name": "Steam Market History Tool Original",
+	"version": "1.0.0",
+	"description": "",
+	"permissions": ["tabs", "activeTab", "storage", "unlimitedStorage"],
+	"host_permissions": ["https://steamcommunity.com/*"],
+	"icons": {
+		"128": "assets/smht_icon_128.png"
+	},
+	"background": {
+		"service_worker": "background.js",
+		"type": "module"
+	},
+	"web_accessible_resources": [
+		{
+			"matches": ["https://steamcommunity.com/*"],
+			"resources": ["smht/import_modules.js"],
+			"use_dynamic_url": true
+		},
+		{
+			"matches": ["https://steamcommunity.com/*"],
+			"resources": ["parsers/market_page_parser.js"],
+			"use_dynamic_url": true
+		},
+		{
+			"matches": ["https://steamcommunity.com/*"],
+			"resources": ["utils/utils.js"],
+			"use_dynamic_url": true
+		},
+		{
+			"matches": ["https://steamcommunity.com/*"],
+			"resources": ["requests/requests.js"],
+			"use_dynamic_url": true
+		},
+		{
+			"matches": ["https://steamcommunity.com/*"],
+			"resources": ["requests/service_worker_api.js"],
+			"use_dynamic_url": true
+		}
+	],
+	"content_scripts": [
+		{
+			"matches": ["https://steamcommunity.com/market/", "https://steamcommunity.com/market", "https://steamcommunity.com/market/?*", "https://steamcommunity.com/market?*"],
+			"js": ["smht/smht.js"]
+		},
+		{
+			"matches": ["https://steamcommunity.com/market/", "https://steamcommunity.com/market", "https://steamcommunity.com/market/?*", "https://steamcommunity.com/market?*"],
+			"css": ["smht/smht_style.css"]
+		}
+	],
+	"action": {
+		"default_title": "Click To Open The Settings Menu",
+		"default_popup": "popup/popup.html"
+	}
+}

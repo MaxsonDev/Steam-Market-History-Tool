@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <style>
+      body {
+        /*min-height: 100vh;*/
+        margin: 0;
+        padding: 0;
+        font-family: "Motiva Sans",Arial,Helvetica,sans-serif;
+        background: radial-gradient(#193652, #320042); /*linear-gradient(354deg, #252040, #1c2d3e)*/
+        font-size: 16px;
+        width: 300px;
+        /*padding: 10px 5px;*/
+        text-align: center;
+      }
+
+      button {
+      	width: 150px;
+      	height: 50px;
+      }
+
+      #popup_title {
+        font-size: 18px;
+        /* font-family: "Motiva Sans", Sans-serif; */
+        color: white;
+        background: #101822;
+        padding: 10px 0;
+        white-space: nowrap;
+      }
+
+      #menu_category {
+        padding: 10px 0px;
+      }
+
+      .setting-category {
+        display: inline-block;
+        /* width: 100%; */
+        cursor: pointer;
+        width: 180px;
+        height: 40px;
+        text-align: center;
+        /*color: #afafaf;*/
+        line-height: 36px;
+        margin-bottom: 10px;
+      }
+
+      .action-grey {
+        background: #3d4450;
+        color: #dfe3e6;
+      }
+
+      .setting-category:hover {
+        color: white;
+        background: linear-gradient(to bottom, #6b5fc7, #3fa2db) repeat scroll 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="popup_title">Steam Market History Tool</div>
+    <div id="menu_category">
+      <div id="accounts_category" class="setting-category action-grey">Accounts</div>
+    </div>
+    <script type="module" src="./import_modules.js"></script>
+  	<script src="../popup/popup.js" type="text/javascript"></script>
+  </body>
+</html>
