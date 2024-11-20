@@ -299,7 +299,7 @@ thead {
   min-height: 170px;
   flex-wrap: nowrap;
   flex-direction: row;
-  align-items: center;
+  /*align-items: center;*/
 }
 
 .current-account-card-container {
