@@ -1,10 +1,10 @@
 {
 	"manifest_version": 3,
-	"name": "Steam Market History Tool Original",
+	"name": "Steam Market History Tool",
 	"version": "1.0.0",
 	"description": "",
-	"permissions": ["tabs", "activeTab", "storage", "unlimitedStorage"],
-	"host_permissions": ["https://steamcommunity.com/*"],
+	"permissions": ["tabs", "unlimitedStorage"],
+	"host_permissions": ["https://steamcommunity.com/market*", "https://steamcommunity.com/economy/itemclasshover*"],
 	"icons": {
 		"128": "assets/smht_icon_128.png"
 	},
