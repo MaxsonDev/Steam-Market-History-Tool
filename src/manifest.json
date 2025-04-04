@@ -1,8 +1,8 @@
 {
 	"manifest_version": 3,
 	"name": "Steam Market History Tool",
-	"version": "1.0.0",
-	"description": "",
+	"version": "1.1.0",
+	"description": "SMHT can search for transactions by items tags, displays 10 - 500 transactions per page, filters transactions.",
 	"permissions": ["tabs", "unlimitedStorage"],
 	"host_permissions": ["https://steamcommunity.com/market*", "https://steamcommunity.com/economy/itemclasshover*"],
 	"icons": {
