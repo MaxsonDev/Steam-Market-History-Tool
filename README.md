@@ -2,6 +2,9 @@
 Steam Market History Tool(SMHT) is a Chrome extension used for loading and storing your transactions from the **Steam Community Market**. 
 The extension downloads transaction data and stores it in your browser's local database. Storing data on a local disk allows you to expand functionality and gives you a new experience of interacting with transactions.
 
+## Chrome Web Store
+You can install the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/steam-market-history-tool/dnfoohdpkodkbolfgbbdhekplmendfnh).
+
 ## Key Features
 + **All in one place!** The extension is *integrated* into the [Steam Community Market](https://steamcommunity.com/market/) webpage.
 + Support for multiple accounts and languages.
@@ -14,7 +17,9 @@ The extension downloads transaction data and stores it in your browser's local d
 ![screen](images/smht_s2.jpg)
 ![screen](images/smht_s3.jpg)
 
-## Installation
+## Installation From Github
+**Better way if you install the extension from the Chrome Web Store. But if you can't install extension from store, then this instruction for you.**
+
 1. Open the Chrome Extensions page.
 
 ![Open extention page](images/readme_s1.png)
