@@ -38,3 +38,13 @@ The extension downloads transaction data and stores it in your browser's local d
 7. Don't forget pin an extension to the Chrome toolbar.
 
 ![Pin extension](images/readme_s8.png)
+# Change Log
+## [1.1.0] - 4-04-2025
+### [ Steam Market History Page ]
+- Pictures of stickers, keychains, patches have been added to the transaction information row for better search.
+### [ MISC ]
+- The code has been updated to reflect the Steam Market update, which left only the purchase and sale of items in history.
+- Fixed a situation where the filter search could return an error.
+- Easy obfuscation has been made in accordance with the requirements of the Chrome Web Store
+## [1.0.0] - 14-11-2024
+- First upload data
